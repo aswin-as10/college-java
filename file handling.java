@@ -11,7 +11,7 @@ public class file {
              System.out.println("message written to file");
         }
         catch(IOException e){
-                    System.err.println("an error occured");
+                    System.err.println("an error occured"+e.getmessage());
         }
     }
 }
